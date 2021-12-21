@@ -60,3 +60,69 @@ body {
 	height: 210px;
 	padding-right: 25px;
 }
+.text {
+	height: 213px;
+	margin-top: 25px;
+	padding: 25px 0 0  36px;
+	background-color: #494949;
+}
+.all {
+	color: white;
+	font-size: 20px;
+	float: left;
+}
+.number {
+	float: right;
+	padding-left: 10px;
+	color: yellow; 
+}
+.down {
+	float: left;
+}
+.provider {
+	font-size: 18px;
+	color: white;
+	padding-left: 40px;
+	float: left;
+}
+.arrow {
+	color: white;
+	padding-left: 5px;
+	font-size: 20px;
+	float: left;
+}
+#main {
+	width: 200px;
+	height: 30px;
+	background-color: #494949;
+	border-color: white;
+	margin-left: 40px;
+}
+.search {
+	color: gray;
+}
+.border {
+	border-bottom: 1px solid white;
+	margin-top: -140px;
+}
+.menu {
+	width: 50px;
+	height: 70px;
+	padding: 27px 0 0 36px;
+	color: yellow;
+	float: left;
+}
+.icon {
+	font-size: 30px;
+}
+.small {
+	padding-top: 5px;
+}
+.menu1 {
+	width: 50px;
+	height: 70px;
+	padding: 27px 0 0 36px;
+	color: gray;
+	float: left;
+	padding-left: 160px;
+}
