@@ -31,6 +31,9 @@ body {
 	padding-left: 45px;
 	padding-top: 20px;
 }
+.under {
+	border-bottom: 2px solid yellow;
+}
 .list2 {
 	width: 70px;
 	height: 35px;
@@ -94,15 +97,15 @@ body {
 	font-size: 20px;
 	float: left;
 }
+.inside {
+	justify-content: space-between;
+}
 #main {
 	width: 200px;
 	height: 30px;
 	background-color: #494949;
 	border-color: white;
 	margin-left: 40px;
-}
-.search {
-	color: gray;
 }
 .border {
 	border-bottom: 1px solid white;
