@@ -66,6 +66,10 @@ body {
 	height: 210px;
 	padding-right: 25px;
 }
+.photo2 {
+	width: 630px; 
+	height: 210px;
+}
 .text {
 	height: 213px;
 	margin-top: 25px;
@@ -97,9 +101,6 @@ body {
 	font-size: 20px;
 	float: left;
 }
-.inside {
-	justify-content: space-between;
-}
 #main {
 	width: 200px;
 	height: 30px;
@@ -121,9 +122,6 @@ body {
 .icon {
 	font-size: 30px;
 }
-.small {
-	padding-top: 5px;
-}
 .menu1 {
 	width: 50px;
 	height: 70px;
@@ -131,4 +129,35 @@ body {
 	color: gray;
 	float: left;
 	padding-left: 160px;
+}
+.small {
+	text-align: center;
+	padding-top: 5px;
+}
+.both {
+	width: 210px;
+	height: 190px;
+	float: left;
+}
+#games {
+	width: 200px;
+	height: 105px;
+	margin-top: 100px;
+	padding-right: 10px;
+}
+.gamename {
+	text-align: center;
+	width: 80px;
+	height: 40px;
+	color: gray;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.gamename1 {
+	text-align: center;
+	width: 120px;
+	height: 40px;
+	color: gray;
+	margin-left: 40px;
+	padding-top: 20px;
 }
