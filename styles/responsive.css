@@ -1,0 +1,33 @@
+@media (max-width: 1020px) {
+	.hamburger {
+		display: block;
+		margin-left: 250px;
+	}
+	.nav-menu {
+		position: fixed;
+		left: -100%;
+		flex-direction: column;
+		background-color: #272727;
+		width: 100%;
+		transition: 0.3s;
+	}
+	.list1 {
+		margin:16px;
+	}
+	.nav-menu.active{
+		left: 0;
+		margin-left: 100px;
+	}
+	.logo {
+		margin-left: 0;
+	}
+@media(max-width: 670px) {
+	.hamburger {
+		margin-left: 100px;
+	}
+}
+@media(max-width: 520px) {
+	.hamburger {
+		margin-left: 0;
+	}
+}
