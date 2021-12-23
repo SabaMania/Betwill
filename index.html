@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<meta charset="UTF-8">
   	<meta name="description" content="Casino">
   	<meta name="keywords" content="#">
   	<meta name="author" content="Saba Mania">
@@ -11,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/reset.css">
 	<link rel="stylesheet" type="text/css" href="styles/font.css">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 	</head>
 	<body>
 		<header class="container">
@@ -19,32 +21,41 @@
 			</a>
 			<div class="navbar-li">
 				<nav>
-					<ul>
-						<a href="#">
+					<ul class="nav-menu">
+						<a href="index.html" class="nav-link">
 							<li class="list">Sports</li>
 						</a>
-						<a href="index.html">
+						<a href="index.html" class="nav-link">
 							<li class="list">In-Play <div class="under"></div></li>
 						</a>
-						<a href="#">
+						<a href="index.html" class="nav-link">
 							<li class="list">Casino</li>
 						</a>
-						<a href="#">
+						<a href="index.html" class="nav-link">
 							<li class="list">Live Casino</li>
 						</a>
-						<a href="#">
+						<a href="index.html" class="nav-link">
 							<li class="list">Virtual Sports</li>
 						</a>
 					</ul>
+					<div class="hamburger">
+						<span class="bar"></span>
+						<span class="bar"></span>
+						<span class="bar"></span>
+					</div>
 				</nav>
 			</div>
 			<div class="navbar-li2">
-				<a href="#">
-					<li class="list2">Join</li>
-				</a>
-				<a href="#">
-					<li class="list3">Log In</li>
-				</a>
+				<nav>
+					<ul >
+						<a href="#">
+							<li class="list2">Join</li>
+						</a>
+						<a href="#">
+							<li class="list3">Log In</li>
+						</a>
+					</ul>
+				</nav>
 			</div>
 		</header>
 		<section class="container1">
@@ -62,7 +73,6 @@
 				</div>
 				<div class="inside">
 					<input type="text" id="main" name="main" placeholder="Search Games..">
-					<img src="images/search.png" class="search" alt="search">
 				</div>
 			</div>
 			<div class="border"></div>
@@ -225,9 +235,25 @@
 				</a>
 			</div>
 		</section>
+		<script type="text/javascript" src="index.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"> 
+		</script>
+
+		<script type="text/javascript">
+			const hamburger = document.querySelector(".hamburger");
+			const navMenu = document.querySelector(".nav-menu");
+
+				hamburger.addEventListener("click", () => {
+				hamburger.classList.toggle("active");
+				navMenu.classList.toggle("active");
+				} )
+		</script>
+
+		<script type="text/javascript">
+			var myImage = document.getElementById('games');
+			var imageArray = ["game1.png", "game2.png", "game3.png" "game4.png", "game5.png", "game6.png",];
+
+		</script>
 	</body>
-	<script type="text/javascript">
-		var myImage = document.getElementById('games');
-		var imageArray = ["game1.png", "game2.png", "game3.png"];
-	</script>
 </html>

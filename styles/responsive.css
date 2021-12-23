@@ -25,9 +25,16 @@
 	.hamburger {
 		margin-left: 100px;
 	}
+	.list {
+		padding-left: 20px;
+	}
 }
 @media(max-width: 520px) {
 	.hamburger {
 		margin-left: 0;
+	}
+	.list {
+		padding-left: 15px;
+		font-size: 10px;
 	}
 }
